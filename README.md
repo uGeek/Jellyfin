@@ -3,6 +3,7 @@
 # Jellyfin CSS
 - https://ugeek.github.io/Jellyfin/JellyfinCSS -> [Fork de prayag17/JellyfinCSS](https://github.com/prayag17/JellyfinCSS)
 - https://ugeek.github.io/Jellyfin/Monochromic/  -> [Fork de CTalvio/Monochromic](https://github.com/CTalvio/Monochromic)
+- https://github.com/visualblind/jellyfin-css
 
 
 
