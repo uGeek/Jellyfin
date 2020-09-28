@@ -35,11 +35,14 @@ Dialogs:<br>
 There are many more animation changes too!
 
 To use just past this : 
+
 ``` 
-@import url(https://prayag17.github.io/JellyfinCSS/JellyfinCUSTOM.css); ```
+@import url(https://prayag17.github.io/JellyfinCSS/JellyfinCUSTOM.css); 
+```
 
 
 or my fork
+
 ```
 @import url(https://ugeek.github.io/Jellyfin/JellyfinCUSTOM.css);
 ```
