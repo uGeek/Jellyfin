@@ -5,7 +5,7 @@ To use the theme copy paste the line below into "Dashboard>General>Custom CSS" a
 
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/default_style.css');
+@import url('https://ugeek.github.io/Jellyfin/Monochromic/default_style.css');
 ```
 
 ![six](screenshots/6.png)
@@ -33,7 +33,7 @@ This theme has some additional options, they can allow the use of a custom accen
 The theme uses mask-image to fade out items below the top bar as you scroll. This works well on most reasonable hardware but struggles on some phones and especially smart TVs. This switches to a method without using mask-image, but foregoes the fade-out effect. I may switch to this method being the default.
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');
+@import url('https://ugeek.github.io/Jellyfin/Monochromic/improve-performance_style.css');
 ```
 
 ### No rounded corners 
@@ -41,7 +41,7 @@ The theme uses mask-image to fade out items below the top bar as you scroll. Thi
 In fact, squares off  every rounded corner JF ever had.
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/sharp_style.css');
+@import url('https://ugeek.github.io/Jellyfin/Monochromic/sharp_style.css');
 ```
 
 ### Accent color presets 
@@ -49,9 +49,9 @@ In fact, squares off  every rounded corner JF ever had.
 Blue restores some of the default jellyfin blue accenting, while purple uses... Well, purple, in a Jellyfin shade of course.
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/jfblue_style.css');
+@import url('https://ugeek.github.io/Jellyfin/Monochromic/jfblue_style.css');
 
-@import url('https://ctalvio.github.io/Monochromic/jfpurple_style.css');
+@import url('https://ugeek.github.io/Jellyfin/Monochromic/jfpurple_style.css');
 ```
 
 ### Restore bottom bar style episode progress
@@ -59,14 +59,14 @@ Blue restores some of the default jellyfin blue accenting, while purple uses... 
 Don't like my transparent view progress overlay? Use this to go back to the old style.
 
 ```css
-@import url('https://ctalvio.github.io/Monochromic/bottom-progress_style.css');
+@import url('https://ugeek.github.io/Jellyfin/Monochromic/bottom-progress_style.css');
 ```
 
 ### Define your own accent color
 
 **UPDATED**: This now uses a single RGB value in a variable. This lets me use the color at various transparencies and hence apply the accent more flexibly in places. Use any RGB color picker to find the value for any given color and enter it. **This import line should always be last**.
 ```css
-@import url('https://ctalvio.github.io/Monochromic/customcolor-advanced_style.css');
+@import url('https://ugeek.github.io/Jellyfin/Monochromic/customcolor-advanced_style.css');
 :root {--accent: R, G, B;}
 ```
 
@@ -92,24 +92,24 @@ add_header Content-Security-Policy ....
 to:
 ```
 add_header Content-Security-Policy "default-src https: data: blob:; style-src 'self' 'unsafe-inline' 
-https://ctalvio.github.io/Monochromic/default_style.css 
-https://ctalvio.github.io/Monochromic/sharp_style.css 
-https://ctalvio.github.io/Monochromic/jfblue_style.css 
-https://ctalvio.github.io/Monochromic/jfpurple_style.css 
-https://ctalvio.github.io/Monochromic/bottom-progress_style.css.css 
-https://ctalvio.github.io/Monochromic/customcolor_style.css 
-https://ctalvio.github.io/Monochromic/customcolor-advanced_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/default_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/sharp_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/jfblue_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/jfpurple_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/bottom-progress_style.css.css 
+https://ugeek.github.io/Jellyfin/Monochromic/customcolor_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/customcolor-advanced_style.css 
 https://fonts.googleapis.com/css2; 
 script-src 'self' 'unsafe-inline' 
 https://www.gstatic.com/cv/js/sender/v1/cast_sender.js 
 https://www.youtube.com/iframe_api https://s.ytimg.com 
-https://ctalvio.github.io/Monochromic/default_style.css 
-https://ctalvio.github.io/Monochromic/sharp_style.css 
-https://ctalvio.github.io/Monochromic/jfblue_style.css 
-https://ctalvio.github.io/Monochromic/jfpurple_style.css 
-https://ctalvio.github.io/Monochromic/bottom-progress_style.css
-https://ctalvio.github.io/Monochromic/customcolor-advanced_style.css 
-https://ctalvio.github.io/Monochromic/customcolor_style.css;
+https://ugeek.github.io/Jellyfin/Monochromic/default_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/sharp_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/jfblue_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/jfpurple_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/bottom-progress_style.css
+https://ugeek.github.io/Jellyfin/Monochromic/customcolor-advanced_style.css 
+https://ugeek.github.io/Jellyfin/Monochromic/customcolor_style.css;
 worker-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'";
 ```
 
