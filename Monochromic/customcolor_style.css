@@ -1,0 +1,48 @@
+.raised:hover, .fab:hover {
+  background: var(--hoveraccent) !important;
+}
+
+.navMenuOption-selected {
+  color: var(--accent);
+}
+.mdl-slider-background-lower {
+  background-color: var(--accent);
+}   
+
+.itemProgressBarForeground {
+  background: var(--hoveraccent) !important;
+}
+
+div[data-role="controlgroup"] a.ui-btn-active,
+.iconOsdProgressInner,
+.mdl-slider::-moz-range-thumb {
+  background: var(--accent) !important;
+}
+
+.paper-icon-button-light:hover,
+.raised.homeLibraryButton:hover,
+.button-flat:hover,
+.playstatebutton-icon-played,
+.ratingbutton-icon-withrating,
+.paper-icon-button-light:hover:not(:disabled),
+.emby-tab-button:hover,
+.selectLabelFocused,
+.inputLabelFocused,
+.textareaLabelFocused {
+  color: var(--accent) !important;
+}
+
+.navMenuOption:hover,
+.actionSheetMenuItem:hover {
+  background-color: var(--hoveraccent) !important;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline,
+.emby-textarea:focus,
+.emby-select-withcolor:focus,
+.emby-input:focus,
+.itemSelectionPanel {
+  border: 0.01em solid var(--hoveraccent) !important;
+}
+
+.mdl-spinner__layer-1 {border-color: var(--accent);}
